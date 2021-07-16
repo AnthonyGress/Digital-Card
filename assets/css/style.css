@@ -1,6 +1,7 @@
 .btn-primary, .btn-primary:active {
   background-color: blueviolet !important;
   border-color: blueviolet !important;
+  min-width: 100px !important;
 }
 
 .btn-primary:active, .btn-check:focus .btn-primary, .btn-primary:focus, .btn-primary:hover{
@@ -11,7 +12,6 @@
 @media screen and (max-width:768px) {
   .btn {
     padding: .7rem;
-    min-width: 100px !important;
   }
 }
 
