@@ -75,8 +75,8 @@ h2{
   .btn {
     margin-left: 2rem;
     margin-right: 2rem;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     }
 
   .top-row {
@@ -85,8 +85,8 @@ h2{
   }
 
   .shareBtn{
-    height: 70px !important;
-    width: 70px !important;
+    height: 80px !important;
+    width: 80px !important;
   }
   
   .bottom-row {
