@@ -47,6 +47,10 @@ h2{
   font-size: 1.5rem;
 }
 
+.shareIcon {
+  vertical-align:middle !important;
+}
+
 .share {
   display: flex;
   justify-content: center;
@@ -70,11 +74,18 @@ h2{
   .btn {
     margin-left: 2rem;
     margin-right: 2rem;
-  }
+    padding-top: 15px;
+    padding-bottom: 15px;
+    }
 
   .top-row {
     justify-content: space-evenly;
     margin-bottom: 2rem;
+  }
+
+  .shareBtn{
+    height: 70px !important;
+    width: 70px !important;
   }
   
   .bottom-row {
@@ -91,6 +102,7 @@ h2{
   .btn {
     margin: .5rem;
   }
+
 }
 @media screen and (min-width: 1024px ) {
 
