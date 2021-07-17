@@ -1,4 +1,9 @@
 const shareBtn = document.querySelector('.shareBtn');
+const qrCode = document.querySelector('.qr-code')
+
+const toggleQr = () => {
+  qrCode.classList.contains('d-none') ? qrCode.classList.remove('d-none') : qrCode.classList.add('d-none');
+}
 
 shareBtn.addEventListener('click', () => {
   if (navigator.share) {
@@ -12,5 +17,6 @@ shareBtn.addEventListener('click', () => {
     .catch(console.error);
   } else {
     // fallback
+    toggleQr();
   }
 });
